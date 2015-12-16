@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E3053081C218961006FC51D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3053071C218961006FC51D /* AppDelegate.swift */; };
+		7E30530A1C218961006FC51D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3053091C218961006FC51D /* ViewController.swift */; };
+		7E30530C1C218961006FC51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E30530B1C218961006FC51D /* Assets.xcassets */; };
+		7E30530F1C218961006FC51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E30530D1C218961006FC51D /* Main.storyboard */; };
+		7E30531A1C218962006FC51D /* TrumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3053191C218962006FC51D /* TrumpTests.swift */; };
+		7E3053251C218962006FC51D /* TrumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3053241C218962006FC51D /* TrumpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E3053161C218962006FC51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3052FC1C218961006FC51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3053031C218961006FC51D;
+			remoteInfo = Trump;
+		};
+		7E3053211C218962006FC51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3052FC1C218961006FC51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3053031C218961006FC51D;
+			remoteInfo = Trump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E3053041C218961006FC51D /* Trump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3053071C218961006FC51D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E3053091C218961006FC51D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E30530B1C218961006FC51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E30530E1C218961006FC51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E3053101C218961006FC51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3053151C218962006FC51D /* TrumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3053191C218962006FC51D /* TrumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpTests.swift; sourceTree = "<group>"; };
+		7E30531B1C218962006FC51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3053201C218962006FC51D /* TrumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3053241C218962006FC51D /* TrumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpUITests.swift; sourceTree = "<group>"; };
+		7E3053261C218962006FC51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3053011C218961006FC51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3053121C218962006FC51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30531D1C218962006FC51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3052FB1C218961006FC51D = {
+			isa = PBXGroup;
+			children = (
+				7E3053061C218961006FC51D /* Trump */,
+				7E3053181C218962006FC51D /* TrumpTests */,
+				7E3053231C218962006FC51D /* TrumpUITests */,
+				7E3053051C218961006FC51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3053051C218961006FC51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3053041C218961006FC51D /* Trump.app */,
+				7E3053151C218962006FC51D /* TrumpTests.xctest */,
+				7E3053201C218962006FC51D /* TrumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3053061C218961006FC51D /* Trump */ = {
+			isa = PBXGroup;
+			children = (
+				7E3053071C218961006FC51D /* AppDelegate.swift */,
+				7E3053091C218961006FC51D /* ViewController.swift */,
+				7E30530B1C218961006FC51D /* Assets.xcassets */,
+				7E30530D1C218961006FC51D /* Main.storyboard */,
+				7E3053101C218961006FC51D /* Info.plist */,
+			);
+			path = Trump;
+			sourceTree = "<group>";
+		};
+		7E3053181C218962006FC51D /* TrumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3053191C218962006FC51D /* TrumpTests.swift */,
+				7E30531B1C218962006FC51D /* Info.plist */,
+			);
+			path = TrumpTests;
+			sourceTree = "<group>";
+		};
+		7E3053231C218962006FC51D /* TrumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3053241C218962006FC51D /* TrumpUITests.swift */,
+				7E3053261C218962006FC51D /* Info.plist */,
+			);
+			path = TrumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3053031C218961006FC51D /* Trump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3053291C218962006FC51D /* Build configuration list for PBXNativeTarget "Trump" */;
+			buildPhases = (
+				7E3053001C218961006FC51D /* Sources */,
+				7E3053011C218961006FC51D /* Frameworks */,
+				7E3053021C218961006FC51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trump;
+			productName = Trump;
+			productReference = 7E3053041C218961006FC51D /* Trump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E3053141C218962006FC51D /* TrumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E30532C1C218962006FC51D /* Build configuration list for PBXNativeTarget "TrumpTests" */;
+			buildPhases = (
+				7E3053111C218962006FC51D /* Sources */,
+				7E3053121C218962006FC51D /* Frameworks */,
+				7E3053131C218962006FC51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3053171C218962006FC51D /* PBXTargetDependency */,
+			);
+			name = TrumpTests;
+			productName = TrumpTests;
+			productReference = 7E3053151C218962006FC51D /* TrumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E30531F1C218962006FC51D /* TrumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E30532F1C218962006FC51D /* Build configuration list for PBXNativeTarget "TrumpUITests" */;
+			buildPhases = (
+				7E30531C1C218962006FC51D /* Sources */,
+				7E30531D1C218962006FC51D /* Frameworks */,
+				7E30531E1C218962006FC51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3053221C218962006FC51D /* PBXTargetDependency */,
+			);
+			name = TrumpUITests;
+			productName = TrumpUITests;
+			productReference = 7E3053201C218962006FC51D /* TrumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3052FC1C218961006FC51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Cryptoc1;
+				TargetAttributes = {
+					7E3053031C218961006FC51D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7E3053141C218962006FC51D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7E3053031C218961006FC51D;
+					};
+					7E30531F1C218962006FC51D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7E3053031C218961006FC51D;
+					};
+				};
+			};
+			buildConfigurationList = 7E3052FF1C218961006FC51D /* Build configuration list for PBXProject "Trump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3052FB1C218961006FC51D;
+			productRefGroup = 7E3053051C218961006FC51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3053031C218961006FC51D /* Trump */,
+				7E3053141C218962006FC51D /* TrumpTests */,
+				7E30531F1C218962006FC51D /* TrumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3053021C218961006FC51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E30530C1C218961006FC51D /* Assets.xcassets in Resources */,
+				7E30530F1C218961006FC51D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3053131C218962006FC51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30531E1C218962006FC51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3053001C218961006FC51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E30530A1C218961006FC51D /* ViewController.swift in Sources */,
+				7E3053081C218961006FC51D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3053111C218962006FC51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E30531A1C218962006FC51D /* TrumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30531C1C218962006FC51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3053251C218962006FC51D /* TrumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E3053171C218962006FC51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3053031C218961006FC51D /* Trump */;
+			targetProxy = 7E3053161C218962006FC51D /* PBXContainerItemProxy */;
+		};
+		7E3053221C218962006FC51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3053031C218961006FC51D /* Trump */;
+			targetProxy = 7E3053211C218962006FC51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E30530D1C218961006FC51D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E30530E1C218961006FC51D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3053271C218962006FC51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E3053281C218962006FC51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7E30532A1C218962006FC51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Trump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoc1.Trump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E30532B1C218962006FC51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Trump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoc1.Trump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E30532D1C218962006FC51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoc1.TrumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trump.app/Contents/MacOS/Trump";
+			};
+			name = Debug;
+		};
+		7E30532E1C218962006FC51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoc1.TrumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trump.app/Contents/MacOS/Trump";
+			};
+			name = Release;
+		};
+		7E3053301C218962006FC51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoc1.TrumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7E3053311C218962006FC51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptoc1.TrumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3052FF1C218961006FC51D /* Build configuration list for PBXProject "Trump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3053271C218962006FC51D /* Debug */,
+				7E3053281C218962006FC51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3053291C218962006FC51D /* Build configuration list for PBXNativeTarget "Trump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E30532A1C218962006FC51D /* Debug */,
+				7E30532B1C218962006FC51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E30532C1C218962006FC51D /* Build configuration list for PBXNativeTarget "TrumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E30532D1C218962006FC51D /* Debug */,
+				7E30532E1C218962006FC51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E30532F1C218962006FC51D /* Build configuration list for PBXNativeTarget "TrumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3053301C218962006FC51D /* Debug */,
+				7E3053311C218962006FC51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E3052FC1C218961006FC51D /* Project object */;
+}
