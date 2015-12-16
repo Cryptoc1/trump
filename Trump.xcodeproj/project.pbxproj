@@ -13,6 +13,7 @@
 		7E30530F1C218961006FC51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E30530D1C218961006FC51D /* Main.storyboard */; };
 		7E30531A1C218962006FC51D /* TrumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3053191C218962006FC51D /* TrumpTests.swift */; };
 		7E3053251C218962006FC51D /* TrumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3053241C218962006FC51D /* TrumpUITests.swift */; };
+		7E3053331C218E7A006FC51D /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3053321C218E7A006FC51D /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		7E3053201C218962006FC51D /* TrumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3053241C218962006FC51D /* TrumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpUITests.swift; sourceTree = "<group>"; };
 		7E3053261C218962006FC51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3053321C218E7A006FC51D /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		7EA993BF1C21F5C3007E7FB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		7E3052FB1C218961006FC51D = {
 			isa = PBXGroup;
 			children = (
+				7EA993BF1C21F5C3007E7FB5 /* README.md */,
 				7E3053061C218961006FC51D /* Trump */,
 				7E3053181C218962006FC51D /* TrumpTests */,
 				7E3053231C218962006FC51D /* TrumpUITests */,
@@ -97,6 +101,7 @@
 			children = (
 				7E3053071C218961006FC51D /* AppDelegate.swift */,
 				7E3053091C218961006FC51D /* ViewController.swift */,
+				7E3053321C218E7A006FC51D /* Quote.swift */,
 				7E30530B1C218961006FC51D /* Assets.xcassets */,
 				7E30530D1C218961006FC51D /* Main.storyboard */,
 				7E3053101C218961006FC51D /* Info.plist */,
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E30530A1C218961006FC51D /* ViewController.swift in Sources */,
+				7E3053331C218E7A006FC51D /* Quote.swift in Sources */,
 				7E3053081C218961006FC51D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +481,7 @@
 				7E30532B1C218962006FC51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E30532C1C218962006FC51D /* Build configuration list for PBXNativeTarget "TrumpTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +490,7 @@
 				7E30532E1C218962006FC51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E30532F1C218962006FC51D /* Build configuration list for PBXNativeTarget "TrumpUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +499,7 @@
 				7E3053311C218962006FC51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
