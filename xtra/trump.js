@@ -1,5 +1,5 @@
 function fuckshitup() {
-	console.log(this);
+	console.log("This is a test");
 }
 
 
