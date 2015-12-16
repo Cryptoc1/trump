@@ -7,9 +7,7 @@ majority by manipulating generalized opinions and toying with others rooted idea
 people by blaming everything on the Jews, you can win any debate with help from Donald Trump himself.
 
 Inspired by Josh's [rand-paul](https://github.com/trommel/rand-paul).
-<br>
-<br>
-<br>
+
 
 ### References
 1. [Inside Gov](http://presidential-candidates.insidegov.com/stories/5187/23-ridiculously-offensive-donald-trump-quotes)
