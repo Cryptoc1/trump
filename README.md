@@ -3,7 +3,7 @@
 
 
 Trump is a simple Mac application to helps you win arguments by making dull-witted, bigotted statements that can win over a mass 
-majority by manipulating generalized opinions and toying with others rooted idealogies. Just like how Hitler empowered the German 
+majority by manipulating generalized opinions and toying with others rooted ideologies. Just like how Hitler empowered the German 
 people by blaming everything on the Jews, you can win any debate with help from Donald Trump himself.
 
 Inspired by Josh's [rand-paul](https://github.com/trommel/rand-paul).
