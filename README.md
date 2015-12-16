@@ -9,6 +9,10 @@ people by blaming everything on the Jews, you can win any debate with help from 
 Inspired by Josh's [rand-paul](https://github.com/trommel/rand-paul).
 
 
+### Screenshots
+<img src="Screenshots/0.png" style="margin: 8px auto;">
+
+
 ### References
 1. [Inside Gov](http://presidential-candidates.insidegov.com/stories/5187/23-ridiculously-offensive-donald-trump-quotes)
 2. [Trump is Literally Hitler](http://trumpisliterallyhitler.com)
