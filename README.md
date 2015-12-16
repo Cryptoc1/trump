@@ -16,6 +16,3 @@ Inspired by Josh's [rand-paul](https://github.com/trommel/rand-paul).
 
 
 ###### Made with hate and intolerance by Samuel Steele
-
-
-<script>console.log("fuckshitup")</script>
