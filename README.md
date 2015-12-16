@@ -1,5 +1,4 @@
 # Trump 
-========
 <img src="trump.png" align="right" width="40%" style="float:right;padding:20px;">
 
 Trump is a simple Mac application to helps you win arguments by making dull-witted, bigotted statements that can win over a mass 
