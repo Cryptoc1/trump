@@ -5,11 +5,7 @@ people by blaming everything on the Jews, you can win any debate with help from 
 
 Inspired by Josh's [rand-paul](https://github.com/trommel/rand-paul).
 
-
-
-<img src="trump.png" align="right" width="30%" style="float:right; padding:20px;">
-
-
+<img align="right" width="30%" style="float:right; padding:20px;" src="trump.png">
 
 ### Screenshots
 <img src="Screenshots/0.png" style="margin: 8px auto;">
