@@ -10,7 +10,6 @@ Inspired by Josh's [rand-paul](https://github.com/trommel/rand-paul).
 <img align="right" width="30%" style="float:right; padding:20px;" src="trump.png">
 
 <img src="Screenshots/0.png" style="margin: 8px auto;">
-
 <img align="right" width="30%" style="float:right; padding:20px;" src="trump.png">
 
 ### References
